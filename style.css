@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(171, 223, 243);
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(250, 168, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+#nav #nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    
+}
+#nav #nav-part1 nav{
+    font-size: 3vh;
+    border: 1.8px solid #130b0b;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+#nav #nav-part1 i{
+    font-size: 3vh;
+    border: 1.9px solid  #1b0b0b;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+#nav #nav-part2{
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#nav #nav-part3 button{
+    padding: 7px 15px;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#nav #nav-part3 #sign-up-button{
+    background-color: orangered;
+    color: white;
+   
+}
+#text-div{
+    height: 90vh;
+    width: 100%;
+}
+#text-div h1{
+    font-size: 20vh;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   width: 100%;
+   text-align: center;
+}
+#text-div img{
+    height:55vh ;
+    width:30vw ;
+    object-position: center;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+}
+#text-div #img1{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#text-div #img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#text-div #img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#text-div #img4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#text-div #img5{
+    transform: translate(-50%,-50%) rotate(-0deg);
+}
+
+#btn-text #left-text p{
+   position: absolute;
+   bottom:5%;
+   left: 3%;
+   font-size: 3vh;
+}
+#btn-text #right-text #icon{
+    display: flex;
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    gap: 2px;
+}
+#btn-text  #arrow {
+    padding: 1px 5px;
+    border: 1px solid white;
+    border-radius: 50vh;
+    font-weight: 1000;
+    font-size: 8vh;
+    position: absolute;
+    bottom: -6%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn-text #my-tag{
+    font-size: 2vh;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
